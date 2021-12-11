@@ -1,0 +1,21 @@
+body {
+background-color: #95a190;
+background-image: url(../images/il1.png);
+background-repeat: no-repeat;
+max-width: auto;
+max-height: auto;   
+}
+
+nav {
+    color: #416788;
+    
+}
+
+h1 {
+    color: #330036;
+    background-color: #dbbadd;
+}
+
+p {
+    background-color: #00393d;
+}
