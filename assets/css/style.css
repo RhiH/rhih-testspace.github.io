@@ -23,7 +23,7 @@ nav li {
 
 nav a:hover {
     background-color: #fff;
-    color: #4a4a4f;
+    color: #dbbadd;
   }
 
 /* headers */
@@ -41,9 +41,16 @@ p {
 
 /* images */
 
-.image-1 {
-    background-image: url(../images/il1.png);
+img {
     background-repeat: no-repeat;
-    max-width: auto;
+    max-width: 300px;
     max-height: auto; 
+}
+
+.column {
+    padding: 20;   
+}
+
+.container {
+    max-width: fit-content;
 }
