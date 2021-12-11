@@ -1,21 +1,49 @@
+/* General */
+
 body {
-background-color: #95a190;
-background-image: url(../images/il1.png);
-background-repeat: no-repeat;
-max-width: auto;
-max-height: auto;   
+margin: 0;
+padding:0; 
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+background-color: #00393d;  
 }
 
-nav {
+/* navigation */
+
+nav ul {
     color: #416788;
-    
+    text-decoration: none;
+    margin: center;
+    font-size: auto; 
 }
+
+nav li {
+    text-decoration: none;
+    text-align: right;
+}
+
+nav a:hover {
+    background-color: #fff;
+    color: #4a4a4f;
+  }
+
+/* headers */
 
 h1 {
     color: #330036;
     background-color: #dbbadd;
 }
 
+/* text style */
+
 p {
-    background-color: #00393d;
+    background-color: #95a190;
+}
+
+/* images */
+
+.image-1 {
+    background-image: url(../images/il1.png);
+    background-repeat: no-repeat;
+    max-width: auto;
+    max-height: auto; 
 }
