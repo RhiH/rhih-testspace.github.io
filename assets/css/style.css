@@ -4,53 +4,64 @@ body {
 margin: 0;
 padding:0; 
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-background-color: #00393d;  
+background-color: #fdfcf3;  
 }
 
 /* navigation */
 
-nav ul {
+#nav {
+    margin: 0;
+}
+
+#nav ul {
     color: #416788;
     text-decoration: none;
     margin: center;
     font-size: auto; 
 }
 
-nav li {
+#nav li {
     text-decoration: none;
-    text-align: right;
+    text-align: center;
 }
 
-nav a:hover {
+#nav a:hover {
     background-color: #fff;
     color: #dbbadd;
   }
 
 /* headers */
 
-h1 {
+h1, h2 {
     color: #330036;
     background-color: #dbbadd;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 /* text style */
 
 p {
     background-color: #95a190;
+    color: #00393d;
 }
 
 /* images */
 
-img {
+#photo {
     background-repeat: no-repeat;
-    max-width: 300px;
-    max-height: auto; 
+    max-width: 30px;
+    max-height: 30px;
+    margin: 40px;
+    padding: 10px;
+    align-items: center;
 }
 
 .column {
-    padding: 20;   
-}
+    float: left;
+    width: 25%;
+    padding: 5px;
+  }
 
-.container {
-    max-width: fit-content;
+.footer {
+    margin: center;
 }
